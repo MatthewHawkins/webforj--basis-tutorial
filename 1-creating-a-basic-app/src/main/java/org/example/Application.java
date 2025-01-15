@@ -14,7 +14,7 @@ import com.webforj.exceptions.WebforjException;
 @StyleSheet("ws://css/app.css")
 @AppTitle("Demo Step 1")
 public class Application extends App {
-  Paragraph demo = new Paragraph("Demo Application!!!");
+  Paragraph demo = new Paragraph("Demo Application!");
   Button btn = new Button("Info");
 
   @Override
