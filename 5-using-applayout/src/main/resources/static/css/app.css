@@ -1,0 +1,30 @@
+.form {
+  padding: var(--dwc-space-l);
+  margin: 0 auto;
+  overflow: auto;
+}
+
+dwc-button {
+  margin-top: var(--dwc-space-l);
+}
+
+.table::part(country-renderer) {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.table::part(country-img) {
+  border-radius: 50%;
+  height: 37px;
+}
+
+.table::part(country-text) {
+  display: flex;
+  flex-direction: column;
+}
+
+.table::part(country-subtext) {
+  font-size: 0.8em;
+  color: var(--dwc-color-gray-text-light);
+}
